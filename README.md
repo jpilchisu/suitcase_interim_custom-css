@@ -4,5 +4,6 @@ A blank module for adding custom stylesheets to individual sites using Suitcase 
 ## Instructions
 
 1. Rename the folder to your module name, usually just the name of the site.
-2. Replace all modulename with your module name. Don't forget the preprocess function in the .module file.
-3. Activate the module in the Drupal admin UI under Modules.
+2. Place in sites/all/modules/custom
+3. Replace all modulename with your module name. Don't forget the preprocess function in the .module file.
+4. Activate the module in the Drupal admin UI under Modules.
