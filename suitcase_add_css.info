@@ -1,0 +1,3 @@
+name = suitcase_add_css
+description = Custom module to add CSS to Suitcase Interim
+core = 7.x

@@ -1,0 +1,12 @@
+<?php
+
+/*
+ * Implements hook_preprocess_html.
+ */
+function suitcase_add_css_preprocess_html(&$vars) {
+	// Override suitcase_interim styles for this site.
+	global $theme;
+	if ($theme == 'suitcase_interim') {
+		drupal_add_css(drupal_get_path('module', 'suitcase_add_css') . '/suitcase_add_css.css', array('group' => 200));
+	}
+}
