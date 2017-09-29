@@ -1,8 +1,8 @@
 # suitecase_interim_custom-module
-A blank module for adding custom stylesheets to individual sites using Suitcase Interim
+A blank module for adding custom stylesheets to individual sites using Suitcase Interim. It's most basic use is to add a CSS stylesheet after all the other theme and modules stylesheets load, allowing on-the-fly styling changes.
 
-1. Rename the module and all files with your module. We usually just use the name of the site.
-2. Add module to sites/all/modules/custom folder
-3. Activate the module in Modules
+## Instructions
 
-At it's most basic, this module just adds a stylesheet after all the other theme and module stylesheets.
+1. Rename the folder to your module name, usually just the name of the site.
+2. Replace all modulename with your module name. Don't forget the preprocess function in the .module file.
+3. Activate the module in the Drupal admin UI under Modules.
