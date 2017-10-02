@@ -1,3 +1,4 @@
 name = suitcase_interim_custom_css
 description = Custom module to add CSS to Suitcase Interim
 core = 7.x
+package = Luggage
